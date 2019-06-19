@@ -1,0 +1,4 @@
+{
+    "MONGOURI": "mongodb://localhost/Manage",
+    "PORT": 5000
+}

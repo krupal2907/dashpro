@@ -1,0 +1,26 @@
+{
+  "name": "dashboard-company",
+  "version": "1.0.0",
+  "description": "This is the dashboard of a company. Only employee part.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "keywords": [
+    "dashboard",
+    "company"
+  ],
+  "author": "Krupal",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.0",
+    "multer": "^1.4.1",
+    "pdfkit": "^0.10.0"
+  }
+}
